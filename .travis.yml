@@ -16,7 +16,7 @@ cache:
 install:
   - whoami
   - echo "Start of pipeline"
-  - HOMEBREW_NO_AUTO_UPDATE=1
+  #- HOMEBREW_NO_AUTO_UPDATE=1
 
 script:
   - ls
